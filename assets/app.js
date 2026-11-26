@@ -141,7 +141,13 @@ if(e.propertyName==='opacity'&&el.classList.contains('in'))el.style.removeProper
 });
 revealObserver.observe(el);
 });
-document.documentElement.classList.add('motion-ready');
+let revealQueued=false;
+const catchUp=()=>{
+revealQueued=false;
+const due=[...reveals].filter(el=>!el.classList.contains('in')&&el.getBoundingClientRect().top<innerHeight);
+due.forEach(el=>{el.classList.add('in');revealObserver.unobserve(el);});
+};
+addEventListener('scroll',()=>{if(!revealQueued){revealQueued=true;requestAnimationFrame(catchUp);}},{passive:true});document.documentElement.classList.add('motion-ready');
 }else{
 revealAll();
 }

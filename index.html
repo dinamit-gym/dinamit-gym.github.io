@@ -58,13 +58,22 @@
 
 <section class="hero" aria-labelledby="hero-title">
 <div class="wrap">
-<div class="hero-media">
-<picture class="hero-photo">
-<img src="assets/img/hall-800.webp" width="800" height="600" alt="Зал «Динамит»: тренажёры, скамьи и зеркала" fetchpriority="high">
-</picture>
-<span class="hero-sticker" aria-hidden="true"><b>0&nbsp;₽</b>первая тренировка</span>
+<div class="hero-intro">
+<svg class="emblem" viewBox="0 0 200 150" aria-hidden="true" focusable="false">
+<g class="emblem-lines" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<rect pathLength="1" x="52" y="58" width="30" height="80" rx="10"/>
+<rect pathLength="1" x="85" y="50" width="30" height="88" rx="10"/>
+<rect pathLength="1" x="118" y="58" width="30" height="80" rx="10"/>
+<path pathLength="1" d="M46 84h108"/>
+<path pathLength="1" d="M46 116h108"/>
+<path pathLength="1" d="M100 50c0-14 10-18 18-22s14-12 22-14"/>
+</g>
+<g class="emblem-spark"><circle cx="140" cy="14" r="5" fill="currentColor"/><path d="M140 2v5M140 21v5M128 14h5M147 14h5M131.5 5.5l3.5 3.5M148.5 22.5l-3.5-3.5M148.5 5.5l-3.5 3.5M131.5 22.5l3.5-3.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></g>
+</svg>
+<p class="wordmark">Динамит</p>
+<p class="slogan">Взрывай свои мышцы!</p>
+<p class="wordsub">Тренажёрный зал в центре Томска</p>
 </div>
-<span class="kicker">Тренажёрный зал в центре Томска</span>
 <h1 id="hero-title"><span class="hero-word" style="--word:0">Первая</span> <span class="hero-word" style="--word:1">тренировка</span> <em><span class="hero-word" style="--word:2">бесплатно</span></em></h1>
 <p class="lead">С первого занятия рядом тренер. Позвони или напиши в MAX — договоритесь о времени. Проспект Ленина, 30/2, рядом с ТГУ и ТУСУРом.</p>
 <div class="hero-actions">
@@ -76,20 +85,37 @@
 <div><b><span class="counter" data-count="5000" aria-label="5 000"><span aria-hidden="true">5&nbsp;000</span></span>&nbsp;₽</b><span>8 занятий</span></div>
 <div><b><span class="counter" data-count="6500" aria-label="6 500"><span aria-hidden="true">6&nbsp;500</span></span>&nbsp;₽</b><span>12 занятий</span></div>
 <div><b>от <span class="counter" data-count="1500" aria-label="1 500"><span aria-hidden="true">1&nbsp;500</span></span>&nbsp;₽</b><span>массаж</span></div>
-<div><b>+<span class="counter" data-count="1000" aria-label="1 000"><span aria-hidden="true">1&nbsp;000</span></span>&nbsp;₽</b><span>за приведённого друга</span></div>
+<div><b>−<span class="counter" data-count="1000" aria-label="1 000"><span aria-hidden="true">1&nbsp;000</span></span>&nbsp;₽</b><span>к абонементу за друга</span></div>
+</div>
+</div>
+</section>
+
+<section class="cine" aria-labelledby="cine-title">
+<div class="cine-stage">
+<div class="cine-frame">
+<div class="hero-media">
+<picture class="hero-photo">
+<img src="assets/img/hall-800.webp" width="800" height="600" alt="Зал «Динамит»: тренажёры, скамьи и зеркала" fetchpriority="high">
+</picture>
+<span class="hero-sticker" aria-hidden="true"><b>0&nbsp;₽</b>первая тренировка</span>
+</div>
+</div>
+<div class="cine-copy">
+<span class="kicker">Ленина, 30/2 · рядом с ТГУ и ТУСУРом</span>
+<h2 id="cine-title">Зал «Динамит»</h2>
+<div class="cine-card"><p>«Динамит» — небольшой тренажёрный зал в центре Томска, на проспекте Ленина. Здесь есть свободные веса, силовые тренажёры и душевая.</p></div>
 </div>
 </div>
 </section>
 
 <div class="ticker" aria-label="Коротко о Динамите"><div>
-<span>Первая тренировка бесплатно</span><span>Родитель + ребёнок до 14 лет: ребёнку абонемент за полцены</span><span>Тренировки с тренером</span><span>Центр Томска</span><span>Ленина, 30/2</span><span>Массаж от 1&nbsp;500&nbsp;₽</span>
+<span>Динамит — взрывай свои мышцы!</span><span>Первая тренировка бесплатно</span><span>Родитель + ребёнок до 14 лет: ребёнку абонемент за полцены</span><span>Тренировки с тренером</span><span>Центр Томска</span><span>Ленина, 30/2</span><span>Массаж от 1&nbsp;500&nbsp;₽</span>
 </div></div>
 
 <section class="section" aria-labelledby="why-title">
 <div class="wrap">
 <div class="section-head reveal">
 <div><span class="kicker">О зале</span><h2 id="why-title">Штанги. Гантели.<br><span class="fire">Тренажёры.</span></h2></div>
-<p class="lead">«Динамит» — небольшой тренажёрный зал в центре Томска, на проспекте Ленина. Здесь есть свободные веса, силовые тренажёры и душевая.</p>
 </div>
 <div class="features">
 <article class="feature reveal">
@@ -173,9 +199,9 @@
 </article>
 <article class="price friend reveal">
 <span class="label">Акция</span>
-<div class="num">+<span class="counter" data-count="1000" aria-label="1 000"><span aria-hidden="true">1&nbsp;000</span></span><small>₽</small></div>
+<div class="num">−<span class="counter" data-count="1000" aria-label="1 000"><span aria-hidden="true">1&nbsp;000</span></span><small>₽</small></div>
 <div class="cost">Приведи друга</div>
-<p class="per">Друг приходит по твоей рекомендации и покупает абонемент — ты получаешь 1&nbsp;000&nbsp;₽ деньгами.</p>
+<p class="per">Друг пришёл по твоей рекомендации и купил абонемент — твой абонемент стоит на 1&nbsp;000&nbsp;₽ меньше.</p>
 <a class="btn" href="tel:+79528905588">Позвонить</a>
 <a class="btn btn-max " href="#max-contact" data-max><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#max-icon"/></svg>Написать в MAX</a>
 </article>
@@ -211,6 +237,15 @@
 </figure>
 </div>
 <p class="note">Ищешь конкретный тренажёр? Спроси тренера по <a href="tel:+79528905588">телефону</a>.</p>
+</div>
+</section>
+
+<section class="band" aria-labelledby="band-title">
+<img class="band-img" src="assets/img/machines-800.webp" width="800" height="600" alt="" loading="lazy" decoding="async">
+<div class="wrap band-copy">
+<h2 id="band-title" class="band-title reveal">Взрывай свои мышцы</h2>
+<p class="band-sub reveal">Первая тренировка — бесплатно. Тренер рядом с первого занятия.</p>
+<div class="band-actions reveal"><a class="btn btn-fire" href="tel:+79528905588">Позвонить</a><a class="btn btn-max" href="#max-contact" data-max><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#max-icon"/></svg>Написать в MAX</a></div>
 </div>
 </section>
 
@@ -287,7 +322,7 @@
 <details><summary>Сколько стоит абонемент?</summary><p>8 занятий — 5&nbsp;000&nbsp;₽ (625&nbsp;₽ за тренировку), 12 занятий — 6&nbsp;500&nbsp;₽ (около 542&nbsp;₽ за тренировку). Срок действия и цену разового посещения уточни по телефону +7 (952) 890-55-88.</p></details>
 <details><summary>Что есть в зале?</summary><p>Штанги, диски, гантели, скамьи, силовые и блочные тренажёры. Наличие конкретного тренажёра и веса — по телефону.</p></details>
 <details><summary>Когда работает зал?</summary><p>Ты занимаешься с тренером, и время каждой тренировки он назначает лично. Постоянных часов работы нет. Позвони или напиши в MAX по номеру +7 (952) 890-55-88 — договоритесь о времени.</p></details>
-<details><summary>Как работает акция «Приведи друга»?</summary><p>Если друг придёт по твоей рекомендации и купит абонемент, ты получишь 1&nbsp;000&nbsp;₽ деньгами. Как сообщить о рекомендации — уточни по телефону.</p></details>
+<details><summary>Как работает акция «Приведи друга»?</summary><p>Если друг придёт по твоей рекомендации и купит абонемент, твой абонемент обойдётся на 1&nbsp;000&nbsp;₽ дешевле. Как сообщить о рекомендации — уточни по телефону.</p></details>
 <details><summary>Есть ли массаж и сколько он стоит?</summary><p>Да: классический, спортивный, лимфодренажный и массаж всего тела — от 1&nbsp;500&nbsp;₽. Запись по телефону.</p></details>
 <details><summary>Где находится зал?</summary><p>Томск, проспект Ленина, 30/2 — рядом с главными корпусами ТГУ (Ленина, 36) и ТУСУРа (Ленина, 40).</p></details>
 <details><summary>Есть скидки для детей?</summary><p>Да. Если родитель занимается вместе с ребёнком до 14 лет, ребёнку абонемент за полцены. Подробности — у тренера.</p></details>
@@ -343,7 +378,7 @@
 </dialog>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Можно ли попробовать бесплатно?","acceptedAnswer":{"@type":"Answer","text":"Да, первая пробная тренировка — бесплатно. Позвони по номеру +7 (952) 890-55-88 и договорись о времени."}},{"@type":"Question","name":"Сколько стоит абонемент?","acceptedAnswer":{"@type":"Answer","text":"8 занятий — 5 000 ₽ (625 ₽ за тренировку), 12 занятий — 6 500 ₽ (около 542 ₽ за тренировку). Срок действия и цену разового посещения уточни по телефону +7 (952) 890-55-88."}},{"@type":"Question","name":"Что есть в зале?","acceptedAnswer":{"@type":"Answer","text":"Штанги, диски, гантели, скамьи, силовые и блочные тренажёры. Наличие конкретного тренажёра и веса — по телефону."}},{"@type":"Question","name":"Когда работает зал?","acceptedAnswer":{"@type":"Answer","text":"Ты занимаешься с тренером, и время каждой тренировки он назначает лично. Постоянных часов работы нет. Позвони или напиши в MAX по номеру +7 (952) 890-55-88 — договоритесь о времени."}},{"@type":"Question","name":"Как работает акция «Приведи друга»?","acceptedAnswer":{"@type":"Answer","text":"Если друг придёт по твоей рекомендации и купит абонемент, ты получишь 1 000 ₽ деньгами. Как сообщить о рекомендации — уточни по телефону."}},{"@type":"Question","name":"Есть ли массаж и сколько он стоит?","acceptedAnswer":{"@type":"Answer","text":"Да: классический, спортивный, лимфодренажный и массаж всего тела — от 1 500 ₽. Запись по телефону."}},{"@type":"Question","name":"Где находится зал?","acceptedAnswer":{"@type":"Answer","text":"Томск, проспект Ленина, 30/2 — рядом с главными корпусами ТГУ (Ленина, 36) и ТУСУРа (Ленина, 40)."}},{"@type":"Question","name":"Есть скидки для детей?","acceptedAnswer":{"@type":"Answer","text":"Да. Если родитель занимается вместе с ребёнком до 14 лет, ребёнку абонемент за полцены. Подробности — у тренера."}},{"@type":"Question","name":"Есть ли душ?","acceptedAnswer":{"@type":"Answer","text":"Да, в зале есть душевая."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Можно ли попробовать бесплатно?","acceptedAnswer":{"@type":"Answer","text":"Да, первая пробная тренировка — бесплатно. Позвони по номеру +7 (952) 890-55-88 и договорись о времени."}},{"@type":"Question","name":"Сколько стоит абонемент?","acceptedAnswer":{"@type":"Answer","text":"8 занятий — 5 000 ₽ (625 ₽ за тренировку), 12 занятий — 6 500 ₽ (около 542 ₽ за тренировку). Срок действия и цену разового посещения уточни по телефону +7 (952) 890-55-88."}},{"@type":"Question","name":"Что есть в зале?","acceptedAnswer":{"@type":"Answer","text":"Штанги, диски, гантели, скамьи, силовые и блочные тренажёры. Наличие конкретного тренажёра и веса — по телефону."}},{"@type":"Question","name":"Когда работает зал?","acceptedAnswer":{"@type":"Answer","text":"Ты занимаешься с тренером, и время каждой тренировки он назначает лично. Постоянных часов работы нет. Позвони или напиши в MAX по номеру +7 (952) 890-55-88 — договоритесь о времени."}},{"@type":"Question","name":"Как работает акция «Приведи друга»?","acceptedAnswer":{"@type":"Answer","text":"Если друг придёт по твоей рекомендации и купит абонемент, твой абонемент обойдётся на 1 000 ₽ дешевле. Как сообщить о рекомендации — уточни по телефону."}},{"@type":"Question","name":"Есть ли массаж и сколько он стоит?","acceptedAnswer":{"@type":"Answer","text":"Да: классический, спортивный, лимфодренажный и массаж всего тела — от 1 500 ₽. Запись по телефону."}},{"@type":"Question","name":"Где находится зал?","acceptedAnswer":{"@type":"Answer","text":"Томск, проспект Ленина, 30/2 — рядом с главными корпусами ТГУ (Ленина, 36) и ТУСУРа (Ленина, 40)."}},{"@type":"Question","name":"Есть скидки для детей?","acceptedAnswer":{"@type":"Answer","text":"Да. Если родитель занимается вместе с ребёнком до 14 лет, ребёнку абонемент за полцены. Подробности — у тренера."}},{"@type":"Question","name":"Есть ли душ?","acceptedAnswer":{"@type":"Answer","text":"Да, в зале есть душевая."}}]}
 </script>
 <script src="assets/app.js" defer></script>
 <script src="assets/effects.js" defer></script>
