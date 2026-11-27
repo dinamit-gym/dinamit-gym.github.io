@@ -104,6 +104,11 @@
 <div class="step reveal"><h3>Выбери вид массажа</h3><p>Виды — выше на этой странице. Цену и длительность тренер назовёт сразу.</p></div>
 <div class="step reveal"><h3>Тренер запишет тебя</h3><p>Это время закрепляется за тобой — другим на него уже не записаться.</p></div>
 </div>
+<div class="busy" id="busy" hidden>
+<h3>Уже занято</h3>
+<ul class="busy-list"></ul>
+<p class="busy-note">Остальное время уточни у тренера — позвони или напиши в MAX.<span class="busy-updated"></span></p>
+</div>
 </div>
 </section>
 
@@ -139,6 +144,7 @@
 <div class="dock"><a class="btn btn-fire" href="tel:+79528905588">Позвонить</a><a class="btn btn-max " href="#max-contact" data-max><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#max-icon"/></svg>Написать в MAX</a></div>
 <script src="assets/app.js" defer></script>
 <script src="assets/effects.js" defer></script>
+<script src="assets/busy.js" defer></script>
 
 <dialog class="call-dialog max-dialog" id="max-contact" aria-labelledby="max-title">
 <h2 class="call-kicker" id="max-title">Найди в MAX по номеру</h2>
